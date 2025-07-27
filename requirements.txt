@@ -1,0 +1,6 @@
+plaid-python==35.0.0
+pandas>=2.2
+python-dotenv>=1.0
+google-cloud-storage>=3.0
+google-cloud-pubsub>=2.20
+pyarrow>=16.0
