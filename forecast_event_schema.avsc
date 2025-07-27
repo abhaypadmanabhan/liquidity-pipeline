@@ -1,0 +1,29 @@
+{
+  "type": "record",
+  "name": "ForecastEvent",
+  "namespace": "liquidity.forecasting",
+  "fields": [
+    { "name": "event_id",      "type": "string" },
+    { "name": "event_type",    "type": "string" },
+    { "name": "event_status",  "type": "string" },
+    { "name": "forecast_id",   "type": "string" },
+    { "name": "business_id",   "type": "string" },
+    { "name": "cashflow_type", "type": "string" },
+    { "name": "direction",     "type": "string" },
+    { "name": "amount",        "type": "double" },
+    { "name": "currency",      "type": "string" },
+    { "name": "due_date",      "type": "string" },
+    { "name": "probability",   "type": "double" },
+    { "name": "scenario",      "type": "string" },
+    { "name": "cost_center",   "type": "string" },
+    { "name": "department",    "type": "string" },
+    { "name": "gl_account",    "type": "string" },
+    { "name": "counterparty",  "type": "string" },
+    { "name": "note",          "type": "string" },
+    { "name": "created_at",    "type": "string" },
+    { "name": "updated_at",    "type": "string" },
+    { "name": "ingest_ts",     "type": "string" },
+    { "name": "source_system", "type": "string" },
+    { "name": "version",       "type": "int" }
+  ]
+}

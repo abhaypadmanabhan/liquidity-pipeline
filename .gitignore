@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets & local config
+.env
+*.key
+# *.json (replaced with specific rules)
+*.p12
+
+# Data outputs (keep only small samples)
+*.parquet
+*.avro
+*.log
+*.csv
+!data/samples/*.csv
+
+# macOS / IDE
+.DS_Store
+.vscode/
+liquidity-forecasting-*.json
+*service-account*.json
+*credentials*.json
+!forecast_events_bq_schema.json
+!forecast_plan_schema.json
+!*_schema.json
